@@ -1,0 +1,14 @@
+# Java build output
+backend/target/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Local database configuration
+backend/src/main/resources/application.properties
