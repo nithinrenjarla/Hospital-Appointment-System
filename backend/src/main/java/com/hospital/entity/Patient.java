@@ -14,7 +14,7 @@ public class Patient {
     private Long id;
 
     private String name;
-    private int age;
+    private Integer age;
     private String gender;
     private String email;
     private String phone;
@@ -23,7 +23,7 @@ public class Patient {
     public Patient() {
     }
 
-    public Patient(String name, int age, String gender,
+    public Patient(String name, Integer age, String gender,
                    String email, String phone, String address) {
         this.name = name;
         this.age = age;
@@ -49,14 +49,13 @@ public class Patient {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
-    }
+    public Integer getAge() {
+    return age;
+}
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
+public void setAge(Integer age) {
+    this.age = age;
+}
     public String getGender() {
         return gender;
     }
